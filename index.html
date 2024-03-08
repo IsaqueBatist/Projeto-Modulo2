@@ -50,6 +50,48 @@
     border-radius: 5px;
     border: 0;
   }
+
+  .display {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-radius: 5px;
+    overflow: hidden;
+    width: 100%;
+    font-size: 27px;
+  }
+
+
+  .Quadrado {
+    margin-top: 30px;
+    width: 33%;
+    background-color: #3E60EF;
+    border: #2637DA;
+    border-radius: 5px;
+    height: 300px;
+  }
+
+  .conteudo {
+    text-align: center;
+    background-color: #5DA1F8;
+    border-radius: 5px;
+    margin: 10px;
+  }
+
+  button {
+    background-color: #1D0C20;
+    color: white;
+    border-radius: 5px;
+    width: 100px;
+    height: 45px;
+    margin-top: 30px;
+    margin-bottom: 5px;
+  }
+
+
+  object {
+    margin-top: 10px;
+  }
 </style>
 
 <head>
@@ -84,18 +126,30 @@
         <input type="text" placeholder="Digite seu nome" />
         <input type="email" placeholder="Digite seu email" />
       </div>
-      <div>
-        <!--Quadrado1-->
-      </div>
-      <div>
-        <!--Quadrado2-->
-      </div>
-      <div>
-        <!--Quadrado3-->
-      </div>
+      <div class="display">
+        <div class="Quadrado">
+          <div class="conteudo">
+            <div>
+              Esportes
+            </div>
+            <object data="footbal_icon-icons.com_53569.svg" type=""></object>
+            <button>Votar</button>
 
-
+          </div>
+        </div>
+        <div class="Quadrado">
+          <div>
+            Simulação
+          </div>
+        </div>
+        <div class="Quadrado">
+          <div>
+            Estratégia
+          </div>
+        </div>
+      </div>
     </div>
+  </div>
   </div>
 </body>
 
