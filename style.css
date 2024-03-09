@@ -5,6 +5,7 @@
   padding: 20px;
   color: white;
   background-image: linear-gradient(to top, #631E6F, #200D24);
+  box-shadow: 1px 3px 8px 1px rgba(0, 0, 0, 0.2);
 }
 
 .tittle {
@@ -68,6 +69,9 @@ input:focus {
   margin-top: 30px;
   background-color: #2637DA;
   border-radius: 5px;
+  margin-bottom: 0px;
+  align-items: center;
+
 }
 
 .conteudo {
@@ -82,10 +86,11 @@ button {
   background-color: #1D0C20;
   color: white;
   border-radius: 5px;
-  width: 100px;
-  height: 45px;
-  margin-top: 20px;
-  margin-bottom: 5px;
+  padding: 0.9rem 2rem;
+  cursor: pointer;
+  margin-top: 10px;
+  font-size: 16px;
+  box-shadow: 3px 8px 1px rgba(0, 0, 0, 0.2);
 }
 
 button:hover {
@@ -104,6 +109,10 @@ object {
   margin-top: 10px;
 }
 
+.image {
+  text-align: center;
+}
+
 @media screen and (max-width: 620px) {
   html {
     font-size: 14px;
@@ -114,6 +123,6 @@ object {
   }
 
   .container {
-    width: 100%;
+    width: 90%;
   }
 }
